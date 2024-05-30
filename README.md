@@ -22,3 +22,7 @@ Other large-scale subjects are likely to be planned for other portfolios in the 
   b. Basic Calculator<br> 
   c. Random Quote Generator<br>
   d. Word Clouds Research Project<br>
+
+# Sample Format
+![TECHIS053024](https://github.com/KLiang0712/PORTFOLIO-TECHIS/assets/41204344/35df4c11-4c51-4de2-8b99-4ccff45b4c09)
+
