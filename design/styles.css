@@ -55,14 +55,11 @@ section #about,
   margin-left: 60px;
 }
 
-#about .email {
+#about #contact-icons img {
   margin-left: 60px;
-}
-
-#about .contact-info .email,
-.profile3 {
-  text-decoration: none;
-  padding-right: 10px;
+  border: 3px solid #16BBCE;
+  width: 75px;
+  height: 75px; 
 }
 
 #content .github3,
@@ -108,7 +105,7 @@ section #about,
   margin-left: 30px;
 }
 
-#skills10 {
+.skills10 {
   margin-left: 60px;
   width: 75px;
   height: 75px;
