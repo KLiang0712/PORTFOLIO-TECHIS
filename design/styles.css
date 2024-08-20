@@ -80,7 +80,7 @@ section #about,
   font-size: 16px;
   color: black;
   background-color: #EBF9F8;
-  border: 4px solid #33CCCC;
+  border: 5px solid #33CCCC;
   margin-left: 30px;
 }
 
@@ -89,13 +89,13 @@ section #about,
   font-size: 16px;
   font-weight: bold;
   margin-left: 30px;
-  border: 4px solid;
+  border: 4px solid #33CCCC;
   background-color: white;
 }
 
 #edux .school,
 .bootcamp {
-  border: 4px solid #33CCCC;
+  border: 5px solid #33CCCC;
   width: 400px;
   margin-left: 60px;
 }

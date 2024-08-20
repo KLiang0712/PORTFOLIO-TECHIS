@@ -41,7 +41,7 @@ $(document).ready(function() {
       name: "Walter Scott"
     },
     
-    /* /Section of High School Yearbook Quotes  */
+    /* Section of High School Yearbook Quotes  */
     {
       quote: "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
       name: "Ralph Waldo Emerson"
@@ -50,7 +50,7 @@ $(document).ready(function() {
       quote: "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.", 
       name: "Harriet Tubman"
     },
-    /* /Section */
+    /* Section of High School Yearbook Quotes  */
     
     {
       quote: "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
@@ -71,6 +71,10 @@ $(document).ready(function() {
     {
       quote: "Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time.",
       name: "Thomas A. Edison"
+    },
+    {
+      quote: "Every morning in our lives, we have a choice to make. You have the choice to stay in bed and say 'Forget it, I'm not going to work hard today.' That's your choice that you make every single day of your life. Make the right decision.",
+      name: "David Goggins"
     },
     {
       quote: "I think most programmers spend the first 5 years of their career mastering complexity, and the rest of their lives learning simplicity.",

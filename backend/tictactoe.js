@@ -4,11 +4,6 @@ let newgameBtn = document.getElementById("new-game");
 let restartBtn = document.getElementById("reset");
 let msgRef = document.getElementById("message");
 
-/*
-  const PLAYERX_WON = "PLAYERX_WON";
-  const PLAYERO_WON = "PLAYERO_WON";
-  const TIE = "TIE";
-*/
 let wins = [
   [0, 1, 2],
   [3, 4, 5],
@@ -20,7 +15,7 @@ let wins = [
   [2, 4, 6]
 ];
 
-// let currentPlayer = "X";
+/* let currentPlayer = "X"; */ 
 let xTurn = true;
 let count = 0;
 
@@ -39,7 +34,8 @@ const enableButtons = () => {
   //disable popup
   popupRef.classList.add("hide");
 };
-//This function is executed when a player wins
+
+/* This function is executed when 1 player wins (X or O) */ 
 const winFunction = (letter) => {
   disableButtons();
   if (letter == "X") {
@@ -48,7 +44,8 @@ const winFunction = (letter) => {
     msgRef.innerHTML = "&#x1F389; <br> 'O' Wins";
   }
 };
-//Function for draw
+
+/* drawFunction for "draw" or tie game */  
 const drawFunction = () => {
   disableButtons();
   msgRef.innerHTML = "&#x1F60E; <br> It's a Draw";

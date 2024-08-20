@@ -1,19 +1,10 @@
-*,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Arial;
-  font-weight: bold;
-}
-
 #wordcloud h1,
 h2 {
   text-align: center;
   font-weight: bold;
 }
 
-#cloud1,
-#cloud2 {
+#cloud {
   font-size: 30px;
   font-weight: bold;
   background-color: #EBF9F8;
@@ -22,13 +13,13 @@ h2 {
 
 #essay {
   border: 4px solid #33CCCC;
-  width: 1200px;
-  margin-left: 300px;
+  width: 900px;
+  margin-left: 150px;
   font-weight: bold;
 }
 
-/* Word Cloud 1 */
-#tagcloud1 {
+/* Word Cloud 1 & 2 */
+#cloud1 {
   width: 1200px;
   height: 300px;
   margin-left: 60px;
@@ -37,8 +28,8 @@ h2 {
   justify-content: center;
 }
 
-/* Word Cloud 2 */
-#tagcloud2 {
+/* Word Cloud 3 */
+#cloud3 {
   height: 500px;
   width: 1200px;
   font-weight: bold;

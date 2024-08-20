@@ -38,6 +38,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.5/d3.layout.cloud.min.js"></script>
 
+  <!-- zingchart -->
+  <script src="https://cdn.zingchart.com/zingchart.min.js"></script>
+  <script>
+    zingchart.MODULESDIR = "https://cdn.zingchart.com/modules/";
+  </script>
+
   <!-- Head Content-->
   <title>Word Clouds</title>
   <link rel="icon" href="/images/favicon.svg" alt="techis">
@@ -54,7 +60,7 @@
 
   <section id="menu">
     <h1 id="cloudtitle" style="margin-left: 160px; font-weight: bold;">
-      <b><span class="font-primary">C</span>AREER</b> 
+      <b><span class="font-primary">C</span>AREER</b>
       <b><span class="font-primary">C</span>RAFT</b>
       <b><span class="font-primary">C</span>LOUDS</b>
       <img src="/images/projects/wordcloud.svg" alt="cloud" height="100" width="100">
@@ -72,12 +78,13 @@
   </section>
   <br><br>
 
-  <h1 id="cloud1">Sample 1</h1>
-  <div id="tagcloud1"></div>
+  <h1 id="cloud">Charts</h1>
+  <div id="cloud1"></div>
+  <div id="cloud2"></div>
   <br><br>
 
-  <h1 id="cloud2">Sample 2</h1>
-  <div id="tagcloud2">
+  <h1 id="cloud">Web Development</h1>
+  <div id="cloud3">
     <ul class="cloud" role="navigation" aria-label="Webdev word cloud">
       <li><a href="#" data-weight="6">MySQL</a></li>
       <li><a href="#" data-weight="9">FrontEnd</a></li>
@@ -98,27 +105,31 @@
     <h6 style="font-weight: bold; margin-left: 60px;">
       Word Clouds are a type of Data Visualization or animation used for analyzing file text.<br>
       The objective of Word Cloud building is to read in text and display the most important<br>
-      Key Words or tags in file text. Tags that appear the most frequently appear in a larger font size<br>Otherwise, the font size for tags that appear less frequently is reduced if shown at all.<br>
-      Developing word clouds may also be done with manual programming of various sizes for Key Words of our choice to plan.<br>
-      Sample 1 is developed using research-based web development and chart CDN scripts.
-      <br>It is created with basic HTML5, CSS3, and analyzed text saved in the backend (JavaScript).
-      <br>Embedded in the web development process are JavaScript chart CDN scripts using amCharts and d3.js.
-      <br>This represents the plug-ins and functionality for displaying the cloud from the backend text.
-      <br>Based on the backend text analyzed, the tags in the cloud reveal my career interests and
+      Key Words or tags in file text. Tags that appear the most frequently appear in a larger font size<br>Otherwise,
+      the font size for tags that appear less frequently is reduced if shown at all.<br>
+      Developing word clouds may also be done with manual programming of various sizes for Key Words of our choice to
+      plan.<br>
+      Our Chart Samples are developed using research-based web development and chart CDN scripts.
+      <br>They created with basic HTML5, CSS3, and analyzed text saved in the backend (JavaScript).
+      <br>Embedded in the web development process are JavaScript chart CDN scripts with analyzed text.
+      <br>Our small colored cloud uses zingChart CDNs with our choice of colors for the cloud tags in the
+      backend.<br>Our large black & white cloud uses amCharts and d3.js.
+      <br>The Chart CDN links are plug-ins and functionality for displaying the cloud using the backend text.
+      <br>Based on the backend text analyzed, the tags in the clouds reveal my career interests and
       what I have learned throughout my studies.<br>
-      Sample 2 is developed using manual tags in various sizes using basic frontend development with HTML5 and
-      CSS3.
+      Our Web Development Sample Cloud is developed using manual tags in various sizes using basic frontend development
+      with HTML5 and CSS3.
       <br>The tags are planned by the developer with larger sizes being the most important and smaller sizes
       indicating significance as a work-in-progress.<br>
-      My sample project shows various programming langauges as tags with the larger size being more knowledgeable
-      and<br>the smaller sized tags as the subjects for self-study or in progress of learning.
+      This Web Development-based cloud shows various programming langauges as tags with the larger size being more
+      knowledgeable and the smaller sized tags as the subjects for self-study or in progress of learning.
     </h6>
   </section>
 
   <br>
   <br>
 
-  <section id="cites" style="margin: 0; padding: 0;">
+  <section id="essay" style="margin: 0; padding: 0;">
     <h1 style="background-color: #ebf9f8; font-size: 30px; font-weight: bold; text-align: center;">References</h1>
     <h6 style="font-weight: bold;">
       AM Charts: This demo was created using amCharts 4.
@@ -146,6 +157,11 @@
     <br>
     <h6 style="font-weight: bold;">Think Design (n. d.) Tag Cloud<br>
       Retrieved from https://think.design/services/data-visualization-data-design/tag-cloud/</h6>
+    <br>
+    <h6 style="font-weight: bold;">Vassilakis, T. (2018) My ZingChart Retrieved from
+      https://codepen.io/thanos/pen/ddOQvz</h6>
+    <br>
+    <h6 style="font-weight: bold;">ZingChart Documentation Retrieved from https://www.zingchart.com</h6>
   </section>
   <br>
   <br>

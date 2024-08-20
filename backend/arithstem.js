@@ -57,7 +57,6 @@ for (var i = 0; i < operator.length; i++) {
   });
 }
 
-
 // on click of 'equal' button
 result.addEventListener("click", function() {
   // this is the string that we will be processing eg. -10+26+33-56*34/23
@@ -89,15 +88,13 @@ Source: https://www.w3schools.com/tags/ev_ondblclick.asp
               3. subtraction (subt)
               4. addition (plus)
               5. remainder (modr)
+  
+  As we move we are alterning the original numbers and operators array
+  the final element remaining in the array will be the output. 
+  
+  Note: Using parseFloat is necessary, otherwise it will result in string concatenation :)
   */
   
-  /*
-     As we move we are alterning the original numbers and operators array
-     the final element remaining in the array will be the output
-  */
-  
-  // Note: Using parseFloat is necessary, otherwise it will result in string concatenation :)
-
   /* Divide */
   var divd = operators.indexOf("÷");
   while (divd != -1) {

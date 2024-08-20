@@ -45,7 +45,7 @@ body {
   background-color: #EBF9F8;
   color: black;
   font-weight: bold;
-  border: 5px solid #33cccc;
+  border: 3px solid #33cccc;
   position: relative;
   margin: 1.5em auto 0 auto;
   display: block;
@@ -61,23 +61,23 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 1em;
-  font-size: 12vmin;
+  gap: 16px;
+  font-size: 30px;
 }
 
 #new-game {
-  font-size: 0.6em;
+  font-size: 30px;
   padding: 0.5em 1em;
   background-color: #ebf9f8;
+  border: 3px solid #33cccc;
   color: #000000;
-  border-radius: 0.2em;
-  border: none;
+  border-radius: 2px;
 }
 
 #message {
   color: black;
   text-align: center;
-  font-size: 1em;
+  font-size: 30px;
 }
 
 .popup.hide {
