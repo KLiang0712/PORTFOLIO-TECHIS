@@ -27,6 +27,10 @@ Other large-scale subjects are likely to be planned for other portfolios in the 
 
 # Resources
 Provided are some generic resources which will be laid out in another page later<br>in addition to the references provided for each project:<br>
+Bootstrap Cards V5.0 Retrieved from https://getbootstrap.com/docs/5.0/components/card/<br>
+<br>
+Code Pen Retrieved from https://codepen.io/<br>
+<br>
 Coding Artist Web Retrieved from: https://codingartistweb.com/<br> 
 <br>
 SVG Repository Retrieved from: https://www.svgrepo.com/
