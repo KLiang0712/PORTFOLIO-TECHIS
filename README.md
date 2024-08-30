@@ -33,6 +33,8 @@ Code Pen Retrieved from https://codepen.io/<br>
 <br>
 Coding Artist Web Retrieved from: https://codingartistweb.com/<br> 
 <br>
+Icons8 Icon Recolor Retrieved from https://icons8.com/iconizer/color<br>
+<br>
 SVG Repository Retrieved from: https://www.svgrepo.com/
 
 # Sample Format
